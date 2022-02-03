@@ -1,5 +1,4 @@
-//import React from "react";
-import React, { useEffect } from 'react';
+import React from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav(props) {
@@ -7,9 +6,8 @@ function Nav(props) {
     categories = [],
     setCurrentCategory,
     currentCategory,
-  } = props; 
+  } = props;
 
-  
 
   const handleClick = (item) => {
     console.log(item);
